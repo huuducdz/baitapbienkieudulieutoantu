@@ -1,0 +1,14 @@
+let inputvatly;
+let inputhoahoc;
+let inputsinhhoc;
+inputvatly = prompt("nhập điểm vật lý");
+inputhoahoc = prompt("nhập điểm hóa học");
+inputsinhhoc = prompt("nhập điểm sinh học");
+let ly = parseInt(inputvatly);
+let hoa = parseInt(inputhoahoc);
+let sinh = parseInt(inputsinhhoc);
+let a = (ly + hoa + sinh )/3;
+let b = (ly + hoa + sinh ) ;
+document.write("điểm trung bình môn:" +a);
+document.write("<br>");
+document.write("tổng điểm:" + b);
